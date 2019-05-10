@@ -1,0 +1,284 @@
+html{
+  font-family: 'Noto Sans','Titillium Web', 'Oswald';
+}
+header{
+   display: inline-flex;
+   flex-direction: row;
+   height: 64px;
+}
+nav{
+ display: flex;
+ float: right;
+margin-left: 550px;
+}
+nav ul{
+float: right;
+margin-right: 24px;
+
+}
+nav ul li{
+  display: inline-flex;
+  flex-direction: row;
+  text-align: right;
+  margin-left: 16px;
+  font-size: 20px;
+}
+.logocontainer img{
+  height: 50px;
+}
+.logocontainer{
+ margin-left: 24px;
+}
+.logonamebold,
+.logonamenotbold{
+position: relative;
+bottom: 17px;
+font-size: 22px;
+}
+.logonamebold{
+font-weight: bold;
+color: black;
+}
+.logonamenotbold{
+color: lightgrey;
+}
+#banner{
+display: inline-flex;
+background-color: lightgrey;
+width: 100%;
+}
+.imgcontainer{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+}
+.imgcontainer img{
+  width: 60%;
+
+}
+.bannertext{
+display: flex;
+width: 400px;
+height: 450px;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+right: 280px;
+}
+   .headertext{
+color: #484848;
+font-size: 40px;
+margin:0;
+margin-bottom: 15px;
+   }
+   .subheadertext{
+color: #484848;
+font-size: 20px;
+margin: 0;
+
+   }
+   .starthere{
+color: lightgray;
+background-color: #484848;
+padding: 8px 0px;
+width: 100%;
+font-size: 20px;
+text-align: center;
+border-radius: 8px;
+   }
+#infosection{
+  background-color: #F5F5F5;
+display: inline-flex;
+}
+.practicing{
+ width: 60%;
+ margin: 32px 24px;
+}
+  .practicingimg{
+
+  }
+  .practicingimg img{
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .practicingtext{
+    text-align: left;
+    font-size: 16px;
+  }
+    .h2header{
+      font-weight: bold;
+      font-size: 32px;
+      margin: 0;
+    }
+.infosectionsideboxes{
+width: 40%;
+display: flex;
+flex-direction: column;
+margin-top: 17px;
+
+}
+
+.infosectionsidebox{
+display: inline-flex;
+
+}
+.infosectionsideboxes img{
+  width: 35%;
+  height: 75%;
+  margin: 16px;
+}
+.timing{
+ font-size: 17px;
+ margin: 0;
+ color: grey;
+}
+.readmore{
+  font-size: 17px;
+  color: blue;
+  margin-top: 7px;
+}
+.infosideboxtext{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.infosideboxtextheading{
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#startlearning{
+padding-top: 32px;
+background-color: lightgray;
+}
+
+.startlearningbox{
+margin-top: 32px ;
+margin-right: 32px;
+margin-top: 32px;
+margin-bottom: 32px;
+background-color: white;
+}
+.startlearningboxes{
+  flex-wrap: wrap;
+display: inline-flex;
+margin-top: 15px;
+margin-bottom: 32px;
+margin-left: 150px;
+margin-right: 40px;
+}
+.startlearningbox img{
+  height: auto;
+  width: 320px;
+}
+.courses{
+ text-transform: uppercase;
+}
+.programheader{
+color: 	#282828;
+}
+.startlearningheader{
+  color: 	#282828;
+  font-size: 45px;
+  margin-top: 32px;
+text-align: center;
+}
+.coursestextbox{
+  color: grey;
+  margin-bottom: 24px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+#thesisexhibit{
+padding-top: 32px;
+background-color: gainsboro;
+}
+.thesis-content{
+  display: inline-flex;
+
+
+}
+.thesis-header{
+  text-align: center;
+}
+  .reimagine{
+   width: 60%;
+  }
+  .reimagine video{
+     width: 100%;
+     margin-left: 24px;
+     margin-top: 32px;
+     margin-bottom: 24px;
+     margin-right: 24px;
+  }
+  .reimagine-textbox{
+    margin-left: 24px;
+  }
+  .reimagine-textboxheader{
+font-size: 25px;
+  }
+  .reimagine-p{
+   margin-bottom: 32px;
+  }
+
+
+
+.thesisectionsideboxes{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  }
+  .thesisectionsidebox img{
+ width: 35%;
+ height: 75%;
+margin: 16px;
+
+  }
+.thesisectionsidebox{
+display: inline-flex;
+margin-left: 48px;
+background-color: whitesmoke;
+margin-top: 10px;
+}
+.thesissideboxtext{
+  position: relative;
+  top: 40px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  float: none;
+
+}
+.thesissidebox-p{
+  font-size: 17px;
+  white-space: nowrap;
+  color: grey;
+  margin: 0;
+}
+.thesissidebox-header{
+  margin: 0;
+  font-size: 19px;
+  font-weight: bold;
+
+}
+
+footer{
+  border-top: 3px solid whitesmoke;
+}
+footer p{
+  font-size: 10px;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+.tandp{
+  
+  margin-right: 24px;
+  margin-top: 16px;
+  float: right;
+  display: inline-flex;
+}
